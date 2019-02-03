@@ -89,6 +89,24 @@ knitr::include_graphics("./GIFSPNGS/CreateNewProject.png", dpi = 150)
 
 * Note: `~/` is your home directory on Linux/Unix.
 
+## Quitting the Server
+
+* Please quit your R session on the server when you are finished:
+    - Type `q()` at the R prompt (`>`) in the Console (bottom left pane of RStudio)
+    - Click on the Orange icon (Quit the current R session-in the top right corner of RStudio)
+    
+```{r, fig.align = "center"}
+knitr::include_graphics("./GIFSPNGS/QuitR.png", dpi = 100)
+```
+
+## Rstudio Server Pro
+
+```{r, fig.align = "center"}
+knitr::include_graphics("./GIFSPNGS/ServerPro.png", dpi = 150)
+```
+
+    
+
 ## Resources
 
 * [Getting Started in R](http://ilustat.com/shared/Getting-Started-in-R.pdf)
