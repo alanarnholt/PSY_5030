@@ -93,6 +93,8 @@ knitr::include_graphics("./GIFSPNGS/CreateNewProject.png", dpi = 150)
 
 * [Introduction to R Markdown](https://m-clark.github.io/Introduction-to-Rmarkdown/)
 
+* [Happy Git and GitHub for the useR](https://happygitwithr.com/)
+
 * [Helpful Documents](https://alanarnholt.github.io/GeneralStatistics/)
 
 * [Various Resources](https://alanarnholt.github.io/resources.html)
