@@ -11,11 +11,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Credit
 
-Ideas taken from:
+Cartoons as well as version control definition and benefits taken from
+<https://datacarpentry.org/>
 
-* <https://datacarpentry.org/>
 
-* Many other places
+To follow along on your monitor, point your browser to [https://alanarnholt.github.io/PSY_5030/IntroToR_PSY.html](https://alanarnholt.github.io/PSY_5030/IntroToR_PSY.html)
+
+
 
 ##
 
