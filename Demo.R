@@ -10,12 +10,6 @@ summary(ChickWeight)
 ggplot(ChickWeight, aes(Time, weight)) + 
   geom_point()
 ##
-ggplot(ChickWeight, aes(Time, weight, color = factor(Diet))) + 
-  geom_point()
-##
-ChickWeight <- ChickWeight %>% 
-  mutate(Diet = factor(Diet))
-##
 ggplot(ChickWeight, aes(Time, weight, color = Diet)) + 
   geom_point()
 ##
@@ -42,3 +36,20 @@ lm(weight ~ Time, data = subset(ChickWeight, Diet == 1))
 lm(weight ~ Time, data = subset(ChickWeight, Diet == 2))
 lm(weight ~ Time, data = subset(ChickWeight, Diet == 3))
 lm(weight ~ Time, data = subset(ChickWeight, Diet == 4))
+##
+mod1 <- lm(weight ~ Time, data = subset(ChickWeight, Diet == 1))
+mod2 <- lm(weight ~ Time, data = subset(ChickWeight, Diet == 2))
+mod3 <- lm(weight ~ Time, data = subset(ChickWeight, Diet == 3))
+mod4 <- lm(weight ~ Time, data = subset(ChickWeight, Diet == 4))
+##
+summary(mod1)
+##
+library(broom)
+NDF1 <- augment(mod1)
+NDF1
+##
+ggplot(data = NDF1, aes(x = Time, y = .resid)) + 
+  geom_point() + 
+  theme_bw()
+##
+
