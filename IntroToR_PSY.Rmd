@@ -79,6 +79,41 @@ knitr::include_graphics("./GIFSPNGS/RStudioLogin.png", dpi = 150)
 
 * See this [link](https://stat-ata-asu.github.io/STT5812CourseRepo/Rmarkdown/GlobalOptions.html) for more details.
 
+## Getting a Copy of a GitHub repo without using Git
+
+* Point your browser to [https://github.com/alanarnholt/PSY_5030](https://github.com/alanarnholt/PSY_5030)
+
+* Click on the green `Clone or download` button
+
+* Click in the bottom right on the `Download ZIP` button (make sure to note where your downloaded files are stored on your local computer)
+
+* In RStudio, click on the `Upload` button in the bottom right pane. Click `Choose file`.  Navigate to the where the `ZIP` directory is stored and select the `PSY_5030-master.zip` file.
+
+## More Directions 
+
+* If you upload the `ZIP` file to your home directory, click on the `PSY_5030-master` directory, then click on the `PSY_5030.Rproj` file.
+
+* You will be asked to Confirm Opening the Project---select `Yes`.
+
+* Your working directory is now set to `~/PSY_5030-master`
+
+## Examine files in `PSY_5030` directory
+
+* Open the `Demo.R` file (brief discussion)
+
+* Open the `DemoHTML.RMD` file (brief discussion---benefits)
+
+
+## Naming your directories
+
+* Names are ONE word only
+
+* Best to use lowercase
+
+* R and linux are case sensitive
+
+* Many naming conventions (CamelCase, snake_case)
+
 ## Your First Project
 
 * Click on `File > New Project... > New Directory > New Project`
